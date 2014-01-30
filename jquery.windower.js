@@ -104,7 +104,7 @@ $(window).ready(function() {
         }
     });
     
-    $(document).on('click', '.closer', function() {
+    $(document).on('click', '.gui_closer', function() {
         $(this).parents('.gui_window').fadeOut();
     });
     

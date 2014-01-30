@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <script src='http://code.jquery.com/jquery-1.10.1.min.js'></script>
+        <script src='jquery.windower.js'></script>
+        <style>
+            #window_1 {
+                width: 500px;
+                height: 500px;
+                
+                min-height: 300px; 
+                min-width: 400px; 
+                
+                max-height: 900px;
+                max-width: 800px;
+            }
+            #window_2 {
+                left: 520px;
+            
+                width: 300px;
+                height: 200px;
+                
+                min-height: 100px; 
+                min-width: 100px; 
+                
+                max-height: 500px;
+                max-width: 600px;
+            }
+            .gui_window {
+                position: absolute;
+                border: 1px solid black;
+                background: grey;
+            }
+            .gui_handle {
+                cursor: move;
+                position: absolute;
+                width: 100%;
+                height: 20px;
+                background: orange;
+                border-bottom: 1px solid black;
+            }
+            .gui_closer {
+                position: absolute;
+                height: 20px;
+                width: 20px;
+                right: 0;
+                top: 0;
+                background: red;
+                border-left: 1px solid black;
+            }
+            .gui_resize {
+                position: absolute;
+                height: 20px;
+                width: 20px;
+                right: 0;
+                bottom: 0;
+                background: orange;
+                border-top: 1px solid black;
+                border-left: 1px solid black;
+            }
+            
+        </style>
+    </head>
+    <body class='gui_container'>
+        <div id='window_1' class='gui_window'>
+            <div class='gui_handle'></div>
+            <div class='gui_closer'></div>
+            <div class='gui_resize'></div>
+        </div>
+        <div id='window_2' class='gui_window'>
+            <div class='gui_handle'></div>
+            <div class='gui_closer'></div>
+            <div class='gui_resize'></div>
+        </div>
+    </body>
+</html>

@@ -1,5 +1,5 @@
 # jquery.windower
-re-sizable and moveable HTML elements using jQuery
+Easily create re-sizable, closeable, and moveable HTML elements using jQuery.
 ## Usage
 ### Step 1: include the script!
 ### Step 2: Create an area where the window 'lives'
