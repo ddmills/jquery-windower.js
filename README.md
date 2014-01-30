@@ -15,5 +15,4 @@ Create a close button by creating a child element of the `gui_window` element an
 
 
 ## Notes
-
 You can easily make windows have a minimum size by adding `min-height: 400px;` , `min-width: 500px;` to their css. Similiarly you can add `max-height` and `min-height`.
