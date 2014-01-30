@@ -1,4 +1,4 @@
-# jquery.windower
+# jquery-windower.js
 Easily create re-sizable, closeable, and moveable HTML elements using jQuery.
 ## Usage
 ### Step 1: include the script!
@@ -16,3 +16,5 @@ Create a close button by creating a child element of the `gui_window` element an
 
 ## Notes
 You can easily make windows have a minimum size by adding `min-height: 400px;` , `min-width: 500px;` to their css. Similiarly you can add `max-height` and `min-height`.
+
+Change the order windows appear by changing their z-order. I didn't want to include it because it could potentially cause conflicts with other html elements. I'll leave that to the user to mess with.
